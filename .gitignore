@@ -22,3 +22,10 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Always generate assets file from source
+bindata_assetfs.go
+bindata.go
+
+# Ignore build directory entirely
+build/**
