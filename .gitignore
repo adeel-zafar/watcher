@@ -25,7 +25,7 @@ _testmain.go
 *.exe
 *.test
 *.prof
-
+debug
 # Always generate assets file from source
 bindata_assetfs.go
 bindata.go
