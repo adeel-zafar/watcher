@@ -65,4 +65,4 @@ package-lock.json
 .env
 
 # Ignore bin
-**bin/
+**bin/**
