@@ -1,8 +1,8 @@
-ROOT=`pwd`
+ROOT="`pwd`/.."
 GO_BIN="${GOPATH}/bin"
 PATH="$PATH:$GO_BIN"
 GO_BINDATA="go-bindata"
-STATIC_ASSETS="./assets/static"
+STATIC_ASSETS="./build/assets"
 ASSETS_GEN="bindata.go"
 SOURCE="*.go"
 TARGET="build/watcher"
