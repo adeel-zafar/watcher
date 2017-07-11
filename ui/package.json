@@ -4,7 +4,11 @@
   "private": true,
   "description": "UI for Watcher",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build" : "npm run build:prod",
+    "build:dev": "webpack --config ./configs/webpack.dev.config.js",
+    "build:prod": "webpack --config ./configs/webpack.prod.config.js"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
