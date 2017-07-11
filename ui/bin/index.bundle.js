@@ -3321,11 +3321,9 @@ var _lodash2 = _interopRequireDefault(_lodash);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function square(n) {
-    return n * n;
-}
-
-console.log((0, _lodash2.default)([1, 2, 3, 4, 5, 6], square));
+console.log((0, _lodash2.default)([1, 2, 3, 4, 5, 6], function (n) {
+  return n * n;
+}));
 
 /***/ }),
 /* 115 */

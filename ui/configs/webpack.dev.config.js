@@ -18,6 +18,6 @@ module.exports = {
     }]
   },
   plugins: [
-      // No uglifyJS
+      // No uglifyJs
     ]
  };
